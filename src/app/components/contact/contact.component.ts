@@ -29,6 +29,7 @@ export class ContactComponent implements OnInit {
     this.contactForm = this.createFormGroup();
   }
 
+ alerte:boolean=false;
 
   ngOnInit() {
   }
@@ -43,6 +44,7 @@ export class ContactComponent implements OnInit {
       this.dbData.saveMessage(this.contactForm.value);
       this.onResetForm();
       console.log('Valid');
+      this.alerte=true;
     } else {
       console.log('Not Valid');
     }
