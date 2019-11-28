@@ -55,7 +55,6 @@ Apache-2.0
 @firebase/webchannel-wrapper
 Apache-2.0
 
-<<<<<<< HEAD
 core-js
 MIT
 Copyright (c) 2014-2019 Denis Pushkarev
@@ -79,13 +78,10 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-=======
->>>>>>> 895899559dc4aff3312c0f6e8bcb9722076aa503
 firebase/app
 
 firebase/firestore
 
-<<<<<<< HEAD
 regenerator-runtime
 MIT
 MIT License
@@ -111,8 +107,6 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-=======
->>>>>>> 895899559dc4aff3312c0f6e8bcb9722076aa503
 rxjs
 Apache-2.0
                                Apache License
