@@ -39,7 +39,7 @@
       </div>
 
       
-      <input type="text" formControlName="telefono" placeholder="Ingrese telefono">
+      <input type="tel" formControlName="telefono" placeholder="Ingrese teléfono">
       <div class="alert-danger" *ngIf="telefono.invalid && (telefono.dirty || telefono.touched)">
           <div class="container-error-message" *ngIf="telefono.errors.required">
             El teléfono es requerido.*

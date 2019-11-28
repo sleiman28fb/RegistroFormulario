@@ -16,6 +16,7 @@
   margin: -16px -16px 16px -16px;
  
 }
+.form-container input[type="tel"],
 .form-container input[type="text"],
 .form-container input[type="email"],
 .form-container textarea {
@@ -33,6 +34,8 @@
   font: 95% Arial, Helvetica, sans-serif;
   
 }
+.form-container input[type="tel"]:focus,
+
 .form-container input[type="text"]:focus,
 .form-container input[type="email"]:focus,
 .form-container textarea:focus {
