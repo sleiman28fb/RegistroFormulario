@@ -23,7 +23,7 @@
           El email debe tener al menos 5 caracteres de longitud.*
       </div>
       <div class="container-error-message" *ngIf="(email.dirty || email.touched) && email.invalid && email.errors.pattern">
-        La direccion de correo elecronico no es valida.*
+        La dirección de correo elecronico no es valida.*
       </div>
     </div>
     
@@ -42,7 +42,7 @@
       <input type="text" formControlName="telefono" placeholder="Ingrese telefono">
       <div class="alert-danger" *ngIf="telefono.invalid && (telefono.dirty || telefono.touched)">
           <div class="container-error-message" *ngIf="telefono.errors.required">
-            El telefono es requerido.*
+            El teléfono es requerido.*
           </div>
           <div class="container-error-message" *ngIf="telefono.errors.minlength">
             El numero  debe tener al menos 8 caracteres de longitud.*
